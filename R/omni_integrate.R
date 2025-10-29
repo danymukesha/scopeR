@@ -6,7 +6,7 @@
 #' @param ... Omics datasets as named data frames with matching sample IDs.
 #' @return A list containing combined omics matrix and metadata.
 #' @examples
-#' integrated <- omni_integrate(transcriptomics = t_df, metabolomics = m_df)
+#' # integrated <- omni_integrate(transcriptomics = t_df, metabolomics = m_df)
 #' @export
 omni_integrate <- function(...) {
     omics_list <- list(...)

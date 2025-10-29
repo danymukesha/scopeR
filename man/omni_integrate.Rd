@@ -17,5 +17,5 @@ Integrates multiple omics datasets (e.g., genomics, transcriptomics, metabolomic
 into a unified data frame using shared sample identifiers.
 }
 \examples{
-integrated <- omni_integrate(transcriptomics = t_df, metabolomics = m_df)
+# integrated <- omni_integrate(transcriptomics = t_df, metabolomics = m_df)
 }
