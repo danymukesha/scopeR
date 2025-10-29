@@ -1,0 +1,31 @@
+Package: OmniScopeR
+Type: Package
+Title: OmniScopeR: A Causality-Integrated Visualization Framework for Multi-Omics Data
+Version: 0.0.9
+Authors@R: 
+    person(given = "Dany", 
+           family = "Mukesha", 
+           role = c("aut", "cre"), 
+           email = "danymukesha@gmail.com",
+           comment = c(ORCID = "0009-0001-9514-751X"))
+Description: Provides a lightweight and modular framework for integrating, 
+    visualizing, and explaining multi-omics data through causal and machine learning 
+    approaches. It allows users to combine omics datasets, build causal graphs, 
+    visualize molecular relationships, and generate interpretable narratives.
+License: MIT + file LICENSE
+Depends: R (>= 4.2)
+Imports:
+    stats,
+    utils,
+    graphics,
+    grDevices
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Encoding: UTF-8
+LazyData: true
+biocViews: Visualization, MultiOmics, DataRepresentation, SystemsBiology
+RoxygenNote: 7.3.2
+Config/testthat/edition: 3
